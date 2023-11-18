@@ -108,6 +108,7 @@ class Fia:
                                                     if nuevo_empleado not in lista_empleados:
                                                         lista_empleados.append(nuevo_empleado)
                                                         print("Empleado agregado correctamente.")
+                                                        valido = True
                                                     else:
                                                         print("El empleado ya está registrado.")
                                                     
@@ -144,6 +145,7 @@ class Fia:
                                                 if nuevo_empleado not in lista_empleados:
                                                         lista_empleados.append(nuevo_empleado)
                                                         print("Empleado agregado correctamente.")
+                                                        valido = True
                                                 else:
                                                     print("El empleado ya está registrado.")
 
@@ -168,6 +170,7 @@ class Fia:
                                             if nuevo_empleado not in lista_empleados:
                                                 lista_empleados.append(nuevo_empleado)
                                                 print("Empleado agregado correctamente.")
+                                                valido = True
                                             else:
                                                 print("El empleado ya está registrado.")
 
@@ -179,6 +182,7 @@ class Fia:
                                             if nuevo_empleado not in lista_empleados:
                                                 lista_empleados.append(nuevo_empleado)
                                                 print("Empleado agregado correctamente.")
+                                                valido = True
                                             else:
                                                 print("El empleado ya está registrado.")
                 valido = True
