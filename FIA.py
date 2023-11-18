@@ -41,10 +41,11 @@ class Fia:
                             anio = fecha_nac_eq[-4:]
                             try:
                                 datetime.strptime(fecha_nac_eq, "%d/%m/%Y")
-                                if int(anio) < 2010 and int(anio) > 1900:
+                                if int(anio) < 2010 and int(anio) > 1800:
                                     fecha_nacimiento = fecha_nac_eq
                                 else:
                                     print(f"El {anio} no es correcto.")
+                                    break
                             except:
                                 print(f"La {fecha_nac_eq} es incorrecta.")
                             nacion_emp = input("Ingrese la nacionalidad: ")
