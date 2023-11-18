@@ -18,15 +18,27 @@ class Fia:
             valido = False
             while not valido:
                 nbr_emp = input("Ingrese nombre: ")
-                if not isinstance(nbr_emp, str) or nbr_emp.isspace() == True:
+                try:
+                    int(nbr_emp)
                     print("Nombre no válido.")
-                else:
-                    nombre = nbr_emp
-                    apell_emp = input("Ingrese apellido: ")
-                    if not isinstance(nbr_emp, str) or apell_emp.isspace() == True:
-                        print("Apellido no válido. Intente de nuevo")
+                    break
+                except ValueError:
+                    if nbr_emp == "":
+                        print("Nombre no válido.")
+                        break
                     else:
-                        apellido = apell_emp
+                        nombre = nbr_emp
+                        apell_emp = input("Ingrese apellido: ")
+                        try:
+                            int(apell_emp)
+                            print("Apellido no válido.")
+                            break
+                        except ValueError:
+                            if apell_emp == "":
+                                print("Apellido no válido.")
+                                break
+                            else:
+                                apellido = apell_emp
                         ci_emp = input(
                         "Ingrese la cedula, con dígito verificador y sin guiones ni espacios: "
                         )
