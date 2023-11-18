@@ -6,4 +6,4 @@ quien actúa de gestor, y es el módulo que contiene la mayoría de las funcione
 la función simular_carrera, que para ejecutarse correctamente deberá recurrir a algunas funciones auxiliares dentro de este módulo cuyos nombres son explícitos. Y por ultimo una seccion de consultas. 
 El programa se debe ejecutar desde el main, y el funcionamiento (a priori) es como la letra del obligatorio lo pide.
 
-El diagrama UML simplifica visualmente la estructura del programa. 
+El diagrama UML simplifica visualmente la estructura del programa anteriormente mencionada. 
