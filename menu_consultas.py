@@ -1,0 +1,10 @@
+def menu_consultas():
+    print("")
+    print("---------- MENÚ CONSULTAS ----------")
+    print("")
+    print("1. Top 10 pilotos con más puntos en el campeonato")
+    print("2. Resumen campeonato de constructores")
+    print("3. Top 5 pilotos mejores pago")
+    print("4. Top 3 pilotos más habilidosos")
+    print("5. Retornar jefes de equipo")
+    print("6. Finalizar programa")
